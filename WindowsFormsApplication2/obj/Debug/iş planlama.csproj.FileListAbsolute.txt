@@ -1,0 +1,55 @@
+C:\Users\CAN\Documents\Visual Studio 2015\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\CAN\Documents\Visual Studio 2015\Projects\iş planlama\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\CAN\Documents\Visual Studio 2015\Projects\iş planlama\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\CAN\Documents\Visual Studio 2015\Projects\iş planlama\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\CAN\Documents\Visual Studio 2015\Projects\iş planlama\WindowsFormsApplication2\obj\Debug\iş planlama.csprojResolveAssemblyReference.cache
+C:\Users\CAN\Documents\Visual Studio 2015\Projects\iş planlama\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\CAN\Documents\Visual Studio 2015\Projects\iş planlama\WindowsFormsApplication2\obj\Debug\iş planlama.csproj.GenerateResource.Cache
+C:\Users\CAN\Documents\Visual Studio 2015\Projects\iş planlama\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+C:\Users\CAN\Documents\Visual Studio 2015\Projects\iş planlama\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+C:\Users\CAN\Documents\Visual Studio 2015\Projects\iş planlama\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+C:\Users\CAN\Documents\Visual Studio 2015\Projects\iş planlama\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.kayit.resources
+C:\Users\CAN\Desktop\iş planlama\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\CAN\Desktop\iş planlama\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+C:\Users\CAN\Desktop\iş planlama\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+C:\Users\CAN\Desktop\iş planlama\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\CAN\Desktop\iş planlama\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\CAN\Desktop\iş planlama\WindowsFormsApplication2\obj\Debug\iş planlama.csprojResolveAssemblyReference.cache
+C:\Users\CAN\Desktop\iş planlama\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+C:\Users\CAN\Desktop\iş planlama\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.kayit.resources
+C:\Users\CAN\Desktop\iş planlama\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\CAN\Desktop\iş planlama\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.İs_Akis_Tablosu.resources
+C:\Users\CAN\Desktop\iş planlama\WindowsFormsApplication2\obj\Debug\iş planlama.csproj.GenerateResource.Cache
+C:\Users\CAN\Desktop\iş planlama - 2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\CAN\Desktop\iş planlama - 2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+C:\Users\CAN\Desktop\iş planlama - 2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+C:\Users\CAN\Desktop\iş planlama - 2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\CAN\Desktop\iş planlama - 2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\CAN\Desktop\iş planlama - 2\WindowsFormsApplication2\obj\Debug\iş planlama.csprojResolveAssemblyReference.cache
+C:\Users\CAN\Desktop\iş planlama - 2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+C:\Users\CAN\Desktop\iş planlama - 2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.kayit.resources
+C:\Users\CAN\Desktop\iş planlama - 2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\CAN\Desktop\iş planlama - 2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.İs_Akis_Tablosu.resources
+C:\Users\CAN\Desktop\iş planlama - 2\WindowsFormsApplication2\obj\Debug\iş planlama.csproj.GenerateResource.Cache
+C:\Users\CAN\Desktop\iş planlama - 2 - Kopya\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\CAN\Desktop\iş planlama - 2 - Kopya\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+C:\Users\CAN\Desktop\iş planlama - 2 - Kopya\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+C:\Users\CAN\Desktop\iş planlama - 2 - Kopya\WindowsFormsApplication2\obj\Debug\iş planlama.csprojResolveAssemblyReference.cache
+C:\Users\CAN\Desktop\iş planlama - 2 - Kopya\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+C:\Users\CAN\Desktop\iş planlama - 2 - Kopya\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.kayit.resources
+C:\Users\CAN\Desktop\iş planlama - 2 - Kopya\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\CAN\Desktop\iş planlama - 2 - Kopya\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.İs_Akis_Tablosu.resources
+C:\Users\CAN\Desktop\iş planlama - 2 - Kopya\WindowsFormsApplication2\obj\Debug\iş planlama.csproj.GenerateResource.Cache
+C:\Users\CAN\Desktop\iş planlama - 2 - Kopya\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\CAN\Desktop\iş planlama - 2 - Kopya\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\CAN\Desktop\iş planlama - 2 - asli\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\CAN\Desktop\iş planlama - 2 - asli\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+C:\Users\CAN\Desktop\iş planlama - 2 - asli\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+C:\Users\CAN\Desktop\iş planlama - 2 - asli\WindowsFormsApplication2\obj\Debug\iş planlama.csprojResolveAssemblyReference.cache
+C:\Users\CAN\Desktop\iş planlama - 2 - asli\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+C:\Users\CAN\Desktop\iş planlama - 2 - asli\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.kayit.resources
+C:\Users\CAN\Desktop\iş planlama - 2 - asli\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\CAN\Desktop\iş planlama - 2 - asli\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.İs_Akis_Tablosu.resources
+C:\Users\CAN\Desktop\iş planlama - 2 - asli\WindowsFormsApplication2\obj\Debug\iş planlama.csproj.GenerateResource.Cache
+C:\Users\CAN\Desktop\iş planlama - 2 - asli\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\CAN\Desktop\iş planlama - 2 - asli\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb

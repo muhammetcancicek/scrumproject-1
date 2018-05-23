@@ -13,6 +13,7 @@ namespace WindowsFormsApplication2
         public List<Gorev_ekle> GorevList;
         public List<personelEkle> perlist;
         public List<yonetciEkle> yoneticilist;
+        public int countGorev = 0;
         
         public int renkkodu = 1;
         public int etkinrenk; 

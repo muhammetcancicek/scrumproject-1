@@ -38,7 +38,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.BTNkayit = new System.Windows.Forms.Button();
             this.yonetici_check = new System.Windows.Forms.CheckBox();
             this.personel_groupbox = new System.Windows.Forms.GroupBox();
             this.personel_groupbox.SuspendLayout();
@@ -142,18 +142,18 @@
             this.label5.TabIndex = 9;
             this.label5.Text = "ADRES";
             // 
-            // button1
+            // BTNkayit
             // 
-            this.button1.BackColor = System.Drawing.Color.Black;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(185, 349);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(103, 30);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "KAYIT OL";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.BTNkayit.BackColor = System.Drawing.Color.Black;
+            this.BTNkayit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.BTNkayit.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.BTNkayit.Location = new System.Drawing.Point(185, 349);
+            this.BTNkayit.Name = "BTNkayit";
+            this.BTNkayit.Size = new System.Drawing.Size(103, 30);
+            this.BTNkayit.TabIndex = 10;
+            this.BTNkayit.Text = "KAYIT OL";
+            this.BTNkayit.UseVisualStyleBackColor = false;
+            this.BTNkayit.Click += new System.EventHandler(this.button1_Click);
             // 
             // yonetici_check
             // 
@@ -192,7 +192,7 @@
             this.ClientSize = new System.Drawing.Size(447, 459);
             this.Controls.Add(this.personel_groupbox);
             this.Controls.Add(this.yonetici_check);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.BTNkayit);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -221,7 +221,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button BTNkayit;
         private System.Windows.Forms.CheckBox yonetici_check;
         private System.Windows.Forms.GroupBox personel_groupbox;
     }

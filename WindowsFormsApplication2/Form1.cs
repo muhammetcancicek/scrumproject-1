@@ -24,11 +24,11 @@ namespace WindowsFormsApplication2
         
         private void Form1_Load(object sender, EventArgs e)
         {
-            personelEkle p1 = new personelEkle() { PerIsim = "can", PerSifre = "1973", Perrenk = 0, PerEposta = "muhammetcancicek@gmail.com", PerAdres = "sedat özcanögrenci yurdu", PerSeviye = 100, PerTelf = "546 738 23 84" };
-            yonetciEkle y1 = new yonetciEkle() { YonetEposta = "yonetici_aglayınyonetciyim@gmail.com", YonetIsım = "yonetici", YonetSifre = "1" };
-            isplanlama.etkinrenk = p1.Perrenk;
-            isplanlama.perlist.Add(p1);
-            isplanlama.yoneticilist.Add(y1); 
+            personelEkle personelDemo1 = new personelEkle() { PerIsim = "can", PerSifre = "1973", Perrenk = 0, PerEposta = "muhammetcancicek@gmail.com", PerAdres = "sedat özcanögrenci yurdu", PerSeviye = 100, PerTelf = "546 738 23 84" };
+            yonetciEkle yoneticiDemo1 = new yonetciEkle() { YonetEposta = "yonetici_aglayınyonetciyim@gmail.com", YonetIsım = "yonetici", YonetSifre = "1" };
+            isplanlama.etkinrenk = personelDemo1.Perrenk;
+            isplanlama.perlist.Add(personelDemo1);
+            isplanlama.yoneticilist.Add(yoneticiDemo1); 
             
 
         }

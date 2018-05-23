@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(İs_Akis_Tablosu));
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.flowPanelNotStared = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowPanelDONE = new System.Windows.Forms.FlowLayoutPanel();
+            this.TaskEkleBTN = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -41,11 +41,11 @@
             this.StoryTxt = new System.Windows.Forms.TextBox();
             this.GorevTxt = new System.Windows.Forms.TextBox();
             this.PuanTxt = new System.Windows.Forms.TextBox();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.yoneticiBTN = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.flowPanelINPROGRES = new System.Windows.Forms.FlowLayoutPanel();
+            this.groupBoxTaskSorgu = new System.Windows.Forms.GroupBox();
+            this.yoneticiDuzenleBTN = new System.Windows.Forms.Button();
+            this.btnGorevAl = new System.Windows.Forms.Button();
+            this.btnTaskBitir = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -59,52 +59,52 @@
             this.storyaraTXT = new System.Windows.Forms.TextBox();
             this.taskaraTXT = new System.Windows.Forms.TextBox();
             this.perssorguTXT = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.TaskSorguBTN = new System.Windows.Forms.Button();
+            this.PersSorguBTN = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.cikisBTN = new System.Windows.Forms.Button();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.grupboxTaskEkle = new System.Windows.Forms.GroupBox();
+            this.groupBoxPrsnSorgula = new System.Windows.Forms.GroupBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
+            this.groupBoxTaskSorgu.SuspendLayout();
+            this.grupboxTaskEkle.SuspendLayout();
+            this.groupBoxPrsnSorgula.SuspendLayout();
             this.SuspendLayout();
             // 
-            // flowLayoutPanel1
+            // flowPanelNotStared
             // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.flowLayoutPanel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(48, 51);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(256, 429);
-            this.flowLayoutPanel1.TabIndex = 0;
-            this.flowLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
+            this.flowPanelNotStared.BackColor = System.Drawing.Color.Transparent;
+            this.flowPanelNotStared.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.flowPanelNotStared.Location = new System.Drawing.Point(48, 51);
+            this.flowPanelNotStared.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.flowPanelNotStared.Name = "flowPanelNotStared";
+            this.flowPanelNotStared.Size = new System.Drawing.Size(256, 429);
+            this.flowPanelNotStared.TabIndex = 0;
+            this.flowPanelNotStared.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
             // 
-            // flowLayoutPanel3
+            // flowPanelDONE
             // 
-            this.flowLayoutPanel3.BackColor = System.Drawing.Color.Transparent;
-            this.flowLayoutPanel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(636, 51);
-            this.flowLayoutPanel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(257, 429);
-            this.flowLayoutPanel3.TabIndex = 2;
-            this.flowLayoutPanel3.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel3_Paint);
+            this.flowPanelDONE.BackColor = System.Drawing.Color.Transparent;
+            this.flowPanelDONE.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.flowPanelDONE.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.flowPanelDONE.Location = new System.Drawing.Point(636, 51);
+            this.flowPanelDONE.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.flowPanelDONE.Name = "flowPanelDONE";
+            this.flowPanelDONE.Size = new System.Drawing.Size(257, 429);
+            this.flowPanelDONE.TabIndex = 2;
+            this.flowPanelDONE.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel3_Paint);
             // 
-            // button1
+            // TaskEkleBTN
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button1.Location = new System.Drawing.Point(619, 121);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(112, 52);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "GOREV EKLE";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.TaskEkleBTN.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.TaskEkleBTN.Location = new System.Drawing.Point(619, 121);
+            this.TaskEkleBTN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TaskEkleBTN.Name = "TaskEkleBTN";
+            this.TaskEkleBTN.Size = new System.Drawing.Size(112, 52);
+            this.TaskEkleBTN.TabIndex = 3;
+            this.TaskEkleBTN.Text = "GOREV EKLE";
+            this.TaskEkleBTN.UseVisualStyleBackColor = true;
+            this.TaskEkleBTN.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -206,88 +206,88 @@
             this.PuanTxt.Text = "1";
             this.PuanTxt.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
-            // flowLayoutPanel2
+            // flowPanelINPROGRES
             // 
-            this.flowLayoutPanel2.BackColor = System.Drawing.Color.Transparent;
-            this.flowLayoutPanel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(341, 51);
-            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(257, 429);
-            this.flowLayoutPanel2.TabIndex = 3;
-            this.flowLayoutPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel2_Paint_1);
+            this.flowPanelINPROGRES.BackColor = System.Drawing.Color.Transparent;
+            this.flowPanelINPROGRES.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.flowPanelINPROGRES.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.flowPanelINPROGRES.Location = new System.Drawing.Point(341, 51);
+            this.flowPanelINPROGRES.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.flowPanelINPROGRES.Name = "flowPanelINPROGRES";
+            this.flowPanelINPROGRES.Size = new System.Drawing.Size(257, 429);
+            this.flowPanelINPROGRES.TabIndex = 3;
+            this.flowPanelINPROGRES.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel2_Paint_1);
             // 
-            // groupBox1
+            // groupBoxTaskSorgu
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox1.Controls.Add(this.yoneticiBTN);
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.button5);
-            this.groupBox1.Controls.Add(this.label11);
-            this.groupBox1.Controls.Add(this.label10);
-            this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.puangosterTXT);
-            this.groupBox1.Controls.Add(this.persgosterTXT);
-            this.groupBox1.Controls.Add(this.durumgosterTXT);
-            this.groupBox1.Controls.Add(this.taskgosterTXT);
-            this.groupBox1.Controls.Add(this.storygosterTXT);
-            this.groupBox1.ForeColor = System.Drawing.Color.Yellow;
-            this.groupBox1.Location = new System.Drawing.Point(908, 51);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(441, 429);
-            this.groupBox1.TabIndex = 13;
-            this.groupBox1.TabStop = false;
+            this.groupBoxTaskSorgu.BackColor = System.Drawing.Color.Transparent;
+            this.groupBoxTaskSorgu.Controls.Add(this.yoneticiDuzenleBTN);
+            this.groupBoxTaskSorgu.Controls.Add(this.btnGorevAl);
+            this.groupBoxTaskSorgu.Controls.Add(this.btnTaskBitir);
+            this.groupBoxTaskSorgu.Controls.Add(this.label11);
+            this.groupBoxTaskSorgu.Controls.Add(this.label10);
+            this.groupBoxTaskSorgu.Controls.Add(this.label9);
+            this.groupBoxTaskSorgu.Controls.Add(this.label8);
+            this.groupBoxTaskSorgu.Controls.Add(this.label7);
+            this.groupBoxTaskSorgu.Controls.Add(this.puangosterTXT);
+            this.groupBoxTaskSorgu.Controls.Add(this.persgosterTXT);
+            this.groupBoxTaskSorgu.Controls.Add(this.durumgosterTXT);
+            this.groupBoxTaskSorgu.Controls.Add(this.taskgosterTXT);
+            this.groupBoxTaskSorgu.Controls.Add(this.storygosterTXT);
+            this.groupBoxTaskSorgu.ForeColor = System.Drawing.Color.Yellow;
+            this.groupBoxTaskSorgu.Location = new System.Drawing.Point(908, 51);
+            this.groupBoxTaskSorgu.Name = "groupBoxTaskSorgu";
+            this.groupBoxTaskSorgu.Size = new System.Drawing.Size(441, 429);
+            this.groupBoxTaskSorgu.TabIndex = 13;
+            this.groupBoxTaskSorgu.TabStop = false;
             // 
-            // yoneticiBTN
+            // yoneticiDuzenleBTN
             // 
-            this.yoneticiBTN.BackColor = System.Drawing.Color.Purple;
-            this.yoneticiBTN.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("yoneticiBTN.BackgroundImage")));
-            this.yoneticiBTN.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.yoneticiBTN.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.yoneticiBTN.ForeColor = System.Drawing.Color.Purple;
-            this.yoneticiBTN.Location = new System.Drawing.Point(201, 355);
-            this.yoneticiBTN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.yoneticiBTN.Name = "yoneticiBTN";
-            this.yoneticiBTN.Size = new System.Drawing.Size(52, 54);
-            this.yoneticiBTN.TabIndex = 20;
-            this.yoneticiBTN.Text = "O";
-            this.yoneticiBTN.UseVisualStyleBackColor = false;
-            this.yoneticiBTN.Click += new System.EventHandler(this.button6_Click);
+            this.yoneticiDuzenleBTN.BackColor = System.Drawing.Color.Purple;
+            this.yoneticiDuzenleBTN.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("yoneticiDuzenleBTN.BackgroundImage")));
+            this.yoneticiDuzenleBTN.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.yoneticiDuzenleBTN.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.yoneticiDuzenleBTN.ForeColor = System.Drawing.Color.Purple;
+            this.yoneticiDuzenleBTN.Location = new System.Drawing.Point(201, 355);
+            this.yoneticiDuzenleBTN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.yoneticiDuzenleBTN.Name = "yoneticiDuzenleBTN";
+            this.yoneticiDuzenleBTN.Size = new System.Drawing.Size(52, 54);
+            this.yoneticiDuzenleBTN.TabIndex = 20;
+            this.yoneticiDuzenleBTN.Text = "O";
+            this.yoneticiDuzenleBTN.UseVisualStyleBackColor = false;
+            this.yoneticiDuzenleBTN.Click += new System.EventHandler(this.button6_Click);
             // 
-            // button4
+            // btnGorevAl
             // 
-            this.button4.BackColor = System.Drawing.Color.Purple;
-            this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button4.ForeColor = System.Drawing.Color.Purple;
-            this.button4.Location = new System.Drawing.Point(31, 353);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(128, 56);
-            this.button4.TabIndex = 18;
-            this.button4.Text = "GOREVI AL";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.btnGorevAl.BackColor = System.Drawing.Color.Purple;
+            this.btnGorevAl.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnGorevAl.BackgroundImage")));
+            this.btnGorevAl.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnGorevAl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnGorevAl.ForeColor = System.Drawing.Color.Purple;
+            this.btnGorevAl.Location = new System.Drawing.Point(31, 353);
+            this.btnGorevAl.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnGorevAl.Name = "btnGorevAl";
+            this.btnGorevAl.Size = new System.Drawing.Size(128, 56);
+            this.btnGorevAl.TabIndex = 18;
+            this.btnGorevAl.Text = "GOREVI AL";
+            this.btnGorevAl.UseVisualStyleBackColor = false;
+            this.btnGorevAl.Click += new System.EventHandler(this.button4_Click);
             // 
-            // button5
+            // btnTaskBitir
             // 
-            this.button5.BackColor = System.Drawing.Color.Purple;
-            this.button5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button5.BackgroundImage")));
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button5.ForeColor = System.Drawing.Color.Purple;
-            this.button5.Location = new System.Drawing.Point(286, 355);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(128, 56);
-            this.button5.TabIndex = 19;
-            this.button5.Text = "BITIRILDI";
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.btnTaskBitir.BackColor = System.Drawing.Color.Purple;
+            this.btnTaskBitir.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnTaskBitir.BackgroundImage")));
+            this.btnTaskBitir.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnTaskBitir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnTaskBitir.ForeColor = System.Drawing.Color.Purple;
+            this.btnTaskBitir.Location = new System.Drawing.Point(286, 355);
+            this.btnTaskBitir.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnTaskBitir.Name = "btnTaskBitir";
+            this.btnTaskBitir.Size = new System.Drawing.Size(128, 56);
+            this.btnTaskBitir.TabIndex = 19;
+            this.btnTaskBitir.Text = "BITIRILDI";
+            this.btnTaskBitir.UseVisualStyleBackColor = false;
+            this.btnTaskBitir.Click += new System.EventHandler(this.button5_Click);
             // 
             // label11
             // 
@@ -413,29 +413,29 @@
             this.perssorguTXT.Text = "PERSONEL ADI";
             this.perssorguTXT.TextChanged += new System.EventHandler(this.textBox8_TextChanged);
             // 
-            // button2
+            // TaskSorguBTN
             // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button2.Location = new System.Drawing.Point(1149, 546);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(128, 56);
-            this.button2.TabIndex = 16;
-            this.button2.Text = "GOREV ARA";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.TaskSorguBTN.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.TaskSorguBTN.Location = new System.Drawing.Point(1149, 546);
+            this.TaskSorguBTN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TaskSorguBTN.Name = "TaskSorguBTN";
+            this.TaskSorguBTN.Size = new System.Drawing.Size(128, 56);
+            this.TaskSorguBTN.TabIndex = 16;
+            this.TaskSorguBTN.Text = "GOREV ARA";
+            this.TaskSorguBTN.UseVisualStyleBackColor = true;
+            this.TaskSorguBTN.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // PersSorguBTN
             // 
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button3.Location = new System.Drawing.Point(213, 23);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(128, 56);
-            this.button3.TabIndex = 17;
-            this.button3.Text = "PERSONEL SORGULA";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.PersSorguBTN.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.PersSorguBTN.Location = new System.Drawing.Point(213, 23);
+            this.PersSorguBTN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.PersSorguBTN.Name = "PersSorguBTN";
+            this.PersSorguBTN.Size = new System.Drawing.Size(128, 56);
+            this.PersSorguBTN.TabIndex = 17;
+            this.PersSorguBTN.Text = "PERSONEL SORGULA";
+            this.PersSorguBTN.UseVisualStyleBackColor = true;
+            this.PersSorguBTN.Click += new System.EventHandler(this.button3_Click);
             // 
             // cikisBTN
             // 
@@ -449,32 +449,32 @@
             this.cikisBTN.UseVisualStyleBackColor = true;
             this.cikisBTN.Click += new System.EventHandler(this.cikisBTN_Click);
             // 
-            // groupBox2
+            // grupboxTaskEkle
             // 
-            this.groupBox2.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Controls.Add(this.button1);
-            this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Controls.Add(this.StoryTxt);
-            this.groupBox2.Controls.Add(this.GorevTxt);
-            this.groupBox2.Controls.Add(this.PuanTxt);
-            this.groupBox2.Location = new System.Drawing.Point(48, 495);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(826, 249);
-            this.groupBox2.TabIndex = 19;
-            this.groupBox2.TabStop = false;
+            this.grupboxTaskEkle.BackColor = System.Drawing.Color.Transparent;
+            this.grupboxTaskEkle.Controls.Add(this.label1);
+            this.grupboxTaskEkle.Controls.Add(this.TaskEkleBTN);
+            this.grupboxTaskEkle.Controls.Add(this.label2);
+            this.grupboxTaskEkle.Controls.Add(this.label3);
+            this.grupboxTaskEkle.Controls.Add(this.StoryTxt);
+            this.grupboxTaskEkle.Controls.Add(this.GorevTxt);
+            this.grupboxTaskEkle.Controls.Add(this.PuanTxt);
+            this.grupboxTaskEkle.Location = new System.Drawing.Point(48, 495);
+            this.grupboxTaskEkle.Name = "grupboxTaskEkle";
+            this.grupboxTaskEkle.Size = new System.Drawing.Size(826, 249);
+            this.grupboxTaskEkle.TabIndex = 19;
+            this.grupboxTaskEkle.TabStop = false;
             // 
-            // groupBox3
+            // groupBoxPrsnSorgula
             // 
-            this.groupBox3.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox3.Controls.Add(this.perssorguTXT);
-            this.groupBox3.Controls.Add(this.button3);
-            this.groupBox3.Location = new System.Drawing.Point(936, 605);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(386, 87);
-            this.groupBox3.TabIndex = 13;
-            this.groupBox3.TabStop = false;
+            this.groupBoxPrsnSorgula.BackColor = System.Drawing.Color.Transparent;
+            this.groupBoxPrsnSorgula.Controls.Add(this.perssorguTXT);
+            this.groupBoxPrsnSorgula.Controls.Add(this.PersSorguBTN);
+            this.groupBoxPrsnSorgula.Location = new System.Drawing.Point(936, 605);
+            this.groupBoxPrsnSorgula.Name = "groupBoxPrsnSorgula";
+            this.groupBoxPrsnSorgula.Size = new System.Drawing.Size(386, 87);
+            this.groupBoxPrsnSorgula.TabIndex = 13;
+            this.groupBoxPrsnSorgula.TabStop = false;
             // 
             // textBox1
             // 
@@ -493,30 +493,30 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1402, 749);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBoxPrsnSorgula);
+            this.Controls.Add(this.grupboxTaskEkle);
             this.Controls.Add(this.cikisBTN);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.TaskSorguBTN);
             this.Controls.Add(this.taskaraTXT);
             this.Controls.Add(this.storyaraTXT);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.flowLayoutPanel2);
+            this.Controls.Add(this.groupBoxTaskSorgu);
+            this.Controls.Add(this.flowPanelINPROGRES);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.flowLayoutPanel3);
-            this.Controls.Add(this.flowLayoutPanel1);
+            this.Controls.Add(this.flowPanelDONE);
+            this.Controls.Add(this.flowPanelNotStared);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "İs_Akis_Tablosu";
             this.Text = "İs_Akis_Tablosu";
             this.Load += new System.EventHandler(this.İs_Akis_Tablosu_Load);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
+            this.groupBoxTaskSorgu.ResumeLayout(false);
+            this.groupBoxTaskSorgu.PerformLayout();
+            this.grupboxTaskEkle.ResumeLayout(false);
+            this.grupboxTaskEkle.PerformLayout();
+            this.groupBoxPrsnSorgula.ResumeLayout(false);
+            this.groupBoxPrsnSorgula.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -524,9 +524,9 @@
 
         #endregion
 
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.FlowLayoutPanel flowPanelNotStared;
+        private System.Windows.Forms.FlowLayoutPanel flowPanelDONE;
+        private System.Windows.Forms.Button TaskEkleBTN;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -536,14 +536,14 @@
         private System.Windows.Forms.TextBox StoryTxt;
         private System.Windows.Forms.TextBox GorevTxt;
         private System.Windows.Forms.TextBox PuanTxt;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.FlowLayoutPanel flowPanelINPROGRES;
+        private System.Windows.Forms.GroupBox groupBoxTaskSorgu;
         private System.Windows.Forms.TextBox persgosterTXT;
         private System.Windows.Forms.TextBox durumgosterTXT;
         private System.Windows.Forms.TextBox taskgosterTXT;
         private System.Windows.Forms.TextBox storygosterTXT;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnGorevAl;
+        private System.Windows.Forms.Button btnTaskBitir;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
@@ -553,13 +553,13 @@
         private System.Windows.Forms.TextBox storyaraTXT;
         private System.Windows.Forms.TextBox taskaraTXT;
         private System.Windows.Forms.TextBox perssorguTXT;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button TaskSorguBTN;
+        private System.Windows.Forms.Button PersSorguBTN;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private System.Windows.Forms.Button yoneticiBTN;
+        private System.Windows.Forms.Button yoneticiDuzenleBTN;
         private System.Windows.Forms.Button cikisBTN;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.GroupBox grupboxTaskEkle;
+        private System.Windows.Forms.GroupBox groupBoxPrsnSorgula;
         private System.Windows.Forms.TextBox textBox1;
     }
 }

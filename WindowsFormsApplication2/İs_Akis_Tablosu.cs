@@ -47,9 +47,9 @@ namespace WindowsFormsApplication2
         {
             if(isplanlama.yoneticimi==false)
             {
-                yoneticiBTN.Visible = false;
-                groupBox2.Visible = false;
-                groupBox3.Visible = false;
+                yoneticiDuzenleBTN.Visible = false;
+                grupboxTaskEkle.Visible = false;
+                groupBoxPrsnSorgula.Visible = false;
 
                 storygosterTXT.Enabled = false;
                 taskgosterTXT.Enabled = false;
@@ -68,44 +68,65 @@ namespace WindowsFormsApplication2
 
 
 
-            flowLayoutPanel1.AllowDrop = true;
-            flowLayoutPanel1.DragOver += new DragEventHandler(panel_DragOver);
-            flowLayoutPanel1.DragDrop += new DragEventHandler(panel_DragDrop);
-            flowLayoutPanel2.AllowDrop = true;
-            flowLayoutPanel2.DragOver += new DragEventHandler(panel_DragOver);
-            flowLayoutPanel2.DragDrop += new DragEventHandler(panel_DragDrop);
-            flowLayoutPanel3.AllowDrop = true;
-            flowLayoutPanel3.DragOver += new DragEventHandler(panel_DragOver);
-            flowLayoutPanel3.DragDrop += new DragEventHandler(panel_DragDrop);
+            flowPanelNotStared.AllowDrop = true;
+            flowPanelNotStared.DragOver += new DragEventHandler(panel_DragOver);
+            flowPanelNotStared.DragDrop += new DragEventHandler(panel_DragDrop);
+            flowPanelINPROGRES.AllowDrop = true;
+            flowPanelINPROGRES.DragOver += new DragEventHandler(panel_DragOver);
+            flowPanelINPROGRES.DragDrop += new DragEventHandler(panel_DragDrop);
+            flowPanelDONE.AllowDrop = true;
+            flowPanelDONE.DragOver += new DragEventHandler(panel_DragOver);
+            flowPanelDONE.DragDrop += new DragEventHandler(panel_DragDrop);
             System.Windows.Forms.Panel PanelNew = new Panel();
             PanelNew.BackColor = Color.White;
             PanelNew.Size = new Size(265, 125);
             PanelNew.MouseDown += c_MouseDown;
 
             System.Windows.Forms.TextBox txbGorev = new TextBox();
-            txbGorev.Text = "STORY = Sifre olusturma "  + Environment.NewLine + Environment.NewLine + "TASK =3 türevde criptolama algoritması " ;
+            txbGorev.Text = "STORY = Sifre olusturma "  + Environment.NewLine + "TASK =Criptolama algoritması " ;
             txbGorev.Enabled = false;
             txbGorev.BackColor = TransparencyKey;
             txbGorev.Multiline = true;
             txbGorev.Size = new Size(220, 125);
             PanelNew.Controls.Add(txbGorev);
 
+            Gorev_ekle gorev1 = new Gorev_ekle();
+            gorev1.GorevPuani = 6;//puan boş kalırsa hata veriyor
+            gorev1.GorevStory = "Sifre olusturma";
+            gorev1.GorevIcerigi = "Criptolama algoritması";
+            isplanlama.GorevList.Add(gorev1);
+            isplanlama.countGorev++;
+
 
             System.Windows.Forms.Panel PanelNew1 = new Panel();
             PanelNew1.BackColor = Color.White;
             PanelNew1.Size = new Size(265, 125);
             PanelNew1.MouseDown += c_MouseDown;
-            flowLayoutPanel1.Controls.Add(PanelNew);
+            flowPanelNotStared.Controls.Add(PanelNew);
 
             System.Windows.Forms.TextBox txbGorev1 = new TextBox();
-            txbGorev1.Text = "STORY = Ürun listeleri " + Environment.NewLine + Environment.NewLine + "TASK =Urun silme islemleri ";
+            txbGorev1.Text = "STORY = Ürun listeleri " + Environment.NewLine + "TASK =Urun silme ";
             txbGorev1.Enabled = false;
             txbGorev1.BackColor = TransparencyKey;
             txbGorev1.Multiline = true;
             txbGorev1.Size = new Size(220, 125);
 
+            Gorev_ekle gorev2 = new Gorev_ekle();
+            gorev2.GorevPuani = 9;//puan boş kalırsa hata veriyor
+            gorev2.GorevStory = "Ürun listeleri";
+            gorev2.GorevIcerigi = "Urun silme";
+            isplanlama.GorevList.Add(gorev2);
+            isplanlama.countGorev++;
+
+            int i;
+            
+            for(i=0; i<=isplanlama.countGorev ;i++)
+            { 
+
+            }
+                
             PanelNew1.Controls.Add(txbGorev1);
-            flowLayoutPanel1.Controls.Add(PanelNew1);
+            flowPanelNotStared.Controls.Add(PanelNew1);
 
 
 
@@ -163,6 +184,7 @@ namespace WindowsFormsApplication2
             grv.GorevStory = StoryTxt.Text;
             grv.GorevIcerigi = GorevTxt.Text;
             isplanlama.GorevList.Add(grv);
+            isplanlama.countGorev++;
 
 
             System.Windows.Forms.Panel PanelNew = new Panel();
@@ -174,7 +196,7 @@ namespace WindowsFormsApplication2
             System.Windows.Forms.TextBox txbGorev = new TextBox();
             txbGorev.Text ="STORY = "+StoryTxt.Text+ Environment.NewLine+ Environment.NewLine + "TASK =" +GorevTxt.Text;
             txbGorev.Enabled = false;
-            txbGorev.BackColor = TransparencyKey;
+            txbGorev.BackColor = Color.Azure;
             txbGorev.Multiline = true;
             txbGorev.Size= new Size (220, 125);
             
@@ -203,7 +225,7 @@ namespace WindowsFormsApplication2
             //PanelNew.Controls.Add(lblStory); 236; 131
 
 
-            flowLayoutPanel1.Controls.Add(PanelNew);//panel içine panel atıyoruz,küçük paneli hangi flowLayoutPanel e atacağını gösteriyor
+            flowPanelNotStared.Controls.Add(PanelNew);//panel içine panel atıyoruz,küçük paneli hangi flowLayoutPanel e atacağını gösteriyor
 
 
         }
@@ -246,7 +268,7 @@ namespace WindowsFormsApplication2
                     puangosterTXT.Text = Convert.ToString(task.GorevPuani);
 
                 }
-                else MessageBox.Show("HATA!!! BILGILERI KONTROL EDIN...");
+                else continue;
             }
 
         }
@@ -289,11 +311,11 @@ namespace WindowsFormsApplication2
                             task.GorevBaslangiçTarihi = DateTime.Now;
                             MessageBox.Show(isplanlama.etkinkisi +  "  alındı");
                         }
-                        else MessageBox.Show("HATA!!! BILGILERI KONTROL EDIN...");
+                        
                     }
 
                 }
-                else MessageBox.Show("HATA!!! BILGILERI KONTROL EDIN...");
+                
             }
 
         }
@@ -312,10 +334,10 @@ namespace WindowsFormsApplication2
                             task.GorevDurumu = "tamamlandi...";
                             task.GorevBitisTarihi = DateTime.Now;
                         }
-                        else MessageBox.Show("HATA!!! BILGILERI KONTROL EDIN...");
+                        
                     }
                 }
-                else MessageBox.Show("HATA!!! BILGILERI KONTROL EDIN...");
+                
                 MessageBox.Show("MISSON COMPLATED (GOZLUK+SİGARA POZU... :D   )");
                 
             }
